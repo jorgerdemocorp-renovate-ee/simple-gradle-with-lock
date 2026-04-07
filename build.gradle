@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+dependencyLocking {
+    lockAllConfigurations()
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.google.guava:guava:31.0-jre'
+    implementation 'org.apache.commons:commons-lang3:3.12.0'
+    testImplementation 'junit:junit:4.13.2'
+}
