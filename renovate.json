@@ -1,4 +1,5 @@
 {
+  "description": "Config touched 2026-09-28 to refresh Renovate stale evaluation",
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "local>jorgerdemocorp-renovate-ee/renovate-config"
